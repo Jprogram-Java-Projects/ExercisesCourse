@@ -1,5 +1,6 @@
 package fundamentals;
 
+//import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -9,11 +10,18 @@ import java.util.Scanner;
  * Date : 06/02/2024
  * Last modified: 06/02/2024 
  * 
+ * Modifications:
+ * 
+ *  - v1.1.0 : Created program
+ * 
  */
 
 public class IMC {
 	
 	public static void main(String[] args) {
+		
+		// The decimal can be represented by a point or a comma depending on your location:
+		// Scanner input = new Scanner(System.in).useLocale(Locale.US);
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Enter the height in meters: ");
