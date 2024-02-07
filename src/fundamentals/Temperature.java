@@ -1,5 +1,6 @@
 package fundamentals;
 
+//import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -11,7 +12,12 @@ import java.util.Scanner;
  * 
  * Author: Jefferson Silva
  * Date : 06/02/2024
- * Last modified: 06/02/2024 
+ * Last modified: 07/02/2024
+ * 
+ * Modifications:
+ * 
+ *  - v1.1.0 : Created program
+ *  - v1.1.0 : Test location in Scanner
  * 
  */
 
@@ -26,6 +32,9 @@ public class Temperature {
 	}
 	
 	public static void main(String[] args) {
+		
+		// The decimal can be represented by a point or a comma depending on your location:
+		// Scanner input = new Scanner(System.in).useLocale(Locale.US);
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Choose one of the options below: \n\n"
